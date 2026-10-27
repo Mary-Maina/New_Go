@@ -11,7 +11,7 @@ func calc(op int, x, y float64) float64 {
 	} else if op == 3 {
 		return x * y
 	}else if op == 4 {
-		if y == 0{
+		if y == 0 {
 			fmt.Println("Error: Division by O")
 			return 0
 		}
